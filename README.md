@@ -10,7 +10,7 @@
 ## Como Executar o Projeto
 
 Para executar o projeto, primeiramente terá que restaurar as dependências do projeto, para isto, abra o prompt de comandos e selecione a pasta  raiz do projeto, após selecionar, execute o seguinte comando: "Composer update".
-Após restaurar as dependências, renomeie o arquivo ".env.example" que está na pasta raiz do projeto para ".env", após isto, abra ele e insira o banco de dados que você deseja realizar a conexão, recomendasse que ele esteja usando o charset "utf8_unicode_ci" e por padrão, ele está configurado para o banco de dados MySQL, caso deseje mudar, vá para basta config e abra o arquivo "database.php" e mude o banco de dados.
+Após restaurar as dependências, renomeie o arquivo ".env.example" que está na pasta raiz do projeto para ".env", após isto, abra o arquivo e insira o banco de dados que você deseja realizar a conexão, recomenda-se que ele esteja usando o charset "utf8_unicode_ci" e por padrão, ele está configurado para o banco de dados MySQL, caso deseje mudar, vá para pasta config e abra o arquivo "database.php" e mude o banco de dados.
 Logo depois, no prompt de comandos, execute o seguinte comando "php artisan key:generate" para gerar a KEY do app e "php artisan migrate" para criar as tabelas do banco de dados.
 Pronto, agora é só executar, para isto, digite "php artisan serve" no prompt de comandos para inicia-lo.
 
